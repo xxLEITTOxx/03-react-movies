@@ -1,5 +1,5 @@
 import SearchBar from "../SearchBar/SearchBar";
-import type Movie from "../../types/movie.ts";
+import type { Movie } from "../../types/movie.ts";
 import { fetchMovies } from "../../services/movieService.ts";
 import MovieGrid from "../MovieGrid/MovieGrid.tsx";
 import { useState } from "react";
